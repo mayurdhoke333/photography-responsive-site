@@ -1,0 +1,139 @@
+/* elements */
+body
+{
+    text-align: center;
+    color:white;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Roboto', sans-serif;
+}
+#gallery h2
+{
+    padding: 0 0 4rem;
+    color:black;
+    font-size:3.5rem;
+}
+/* section1 */
+#section1
+{
+    background-color:#ee9ca7;
+}
+#section1 .container-fluid
+{
+    padding:3% 15% 6%;
+    text-align: left;
+}
+
+
+/* globally used  */
+.container-fluid
+{
+    padding:7% 12%;
+}
+
+/* Navigation-bar section  */
+
+.navbar
+{
+    padding:0 0 4.5rem;
+}
+.navbar-brand
+{
+    font-size:2.5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px #ffdde1;
+}
+.heading
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* social button in title section  */
+.social-button
+{
+    margin: 4% 2%;
+}
+.title-image
+{
+    width:90%;
+    padding: 1% 1% 0 3%;
+}
+
+/* gallery section  */
+.gallery-image
+{
+    width: 100%;
+    padding: 2%;
+    height: 100%;
+    
+}
+.image-column
+{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* testimonial section  */
+.carousel-item
+{
+    
+}
+#testimonial 
+{
+    background-color:#ee9ca7; 
+}
+#testimonial h2
+{
+    font-size:3rem;
+font-family: 'Lobster Two', cursive;
+}
+.testimonial-image
+{
+    border-radius: 100%;
+    width:10%;
+    margin:1rem 1rem
+}
+
+/* pricing-section  */
+.pricing-heading
+{
+    color:black;
+}
+.pricing-para
+{
+    color:grey;
+}
+.pricing-body
+{
+    color:black;
+    font-size:1.8rem;   
+}
+.pricing-column
+{
+    padding:1%;
+}
+
+/* FOOTER SECTION  */
+#footer
+{
+    background-color:#ee9ca7;
+    padding:7% 13%;
+    color:black;
+}
+.icon 
+{
+    margin: 31px 15px 12px;
+}
+@media(max-width:544px)
+{
+    h1,h2
+    {
+        font-size:1rem;
+    }
+    .heading
+    {
+        font-size: 1rem;
+        line-height: 1;
+    }
+}
